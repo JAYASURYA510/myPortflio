@@ -1,0 +1,70 @@
+/* Add your custom styles here */
+
+#hero {
+    background-image: url('images/Mern.png');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #about img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  #projects .card {
+    height: 100%;
+  }
+  
+  footer {
+    margin-top: 50px;
+  }
+  #skills {
+    background-color: #f9f9f9;
+  }
+  
+  #skills h2 {
+    margin-bottom: 30px;
+  }
+  
+  #skills .card {
+    margin-bottom: 20px;
+  }
+  
+  #skills .card-title {
+    margin-bottom: 10px;
+  }
+  
+  #skills .progress {
+    height: 10px;
+  }
+  
+  #skills .progress-bar {
+    background-color: #70ec72;
+  }
+  section {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
