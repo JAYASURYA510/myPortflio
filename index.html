@@ -30,14 +30,24 @@
       </ul>
     </div>
   </nav>
-
+<!-- <div>
   <header id="hero" class="text-white text-center">
     <div class="container">
       <h1 class="display-4">Welcome to My Portfolio</h1>
       <p class="lead">I am a web developer passionate about creating amazing websites.</p>
     </div>
+    <diiv>surya</diiv>
   </header>
+  
+</div> -->
+<div class="bg-image"></div>
 
+<header id="hero" class="text-white text-center">
+  <div class="container">
+    <h1 class="display-4">Welcome to My Portfolio</h1>
+    <p class="lead">I am a web developer passionate about creating amazing websites.</p>
+  </div>
+</header>
   <section id="about" class="py-5">
     <div class="container">
       <div class="row">
@@ -46,7 +56,7 @@
           <p>Full stack developer with a unique background in commerce and business administration, combining financial analysis and human resources management. Skilled in full stack development, I bring a holistic understanding of business needs and user experience. Thriving in fast-paced environments, I excel at collaborating with cross-functional teams and translating complex technical concepts to non-technical stakeholders. Committed to continuous learning and delivering innovative solutions for business growth.</p>
         </div>
         <div class="col-lg-6">
-          <img src="images/my img.jpg" alt="Profile Image" class="img-fluid rounded-circle">
+          <img src="images/my img.jpg" alt="Profile Image" class="img-fluid">
         </div>
       </div>
     </div>
@@ -106,6 +116,46 @@
             </div>
           </div>
         </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">My Sql</h5>
+              <div class="progress">
+                <div class="progress-bar" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Mongo DB</h5>
+              <div class="progress">
+                <div class="progress-bar" style="width: 86%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Node JS</h5>
+              <div class="progress">
+                <div class="progress-bar" style="width: 86%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">AWS Cloud Servies</h5>
+              <div class="progress">
+                <div class="progress-bar" style="width: 46%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- Add more skills cards as needed -->
       </div>
     </div>
@@ -113,6 +163,8 @@
   <section id="projects" class="bg-light py-5">
     <div class="container">
       <h2 class="text-center mb-4">My Projects</h2>
+     <h3 class="text-center mb-3">
+      FrontEnd Project</h3>
       <div class="row">
         <div class="col-lg-4 mb-4">
           <div class="card">
@@ -120,7 +172,7 @@
             <div class="card-body">
               <h5 class="card-title">Travel landing page  Project </h5>
               <p class="card-text">created a travelling landing page in html css with help of boostrap classes.</p>
-              <a href="https://jayasurya510.github.io/travelling-langing-page/traviling%20landing%20page/index2.html" class="btn btn-primary">View Details</a>
+              <!-- <a href="https://jayasurya510.github.io/travelling-langing-page/traviling%20landing%20page/index2.html" class="btn btn-primary">View Details</a> -->
             </div>
           </div>
         </div>
@@ -130,7 +182,7 @@
             <div class="card-body">
               <h5 class="card-title">Restaurant landing page  Project </h5>
               <p class="card-text">created a Restaurant landing page in html css with help of boostrap classes.</p>
-              <a href="https://jayasurya510.github.io/Food-Landding-page/index.html" class="btn btn-primary">View Details</a>
+              <!-- <a href="https://jayasurya510.github.io/Food-Landding-page/index.html" class="btn btn-primary">View Details</a> -->
             </div>
           </div>
         </div>
@@ -140,7 +192,7 @@
             <div class="card-body">
               <h5 class="card-title">dice game  Project </h5>
               <p class="card-text">created a dice game in java script fuctionality with boostrap styles .</p>
-              <a href="https://jayasurya510.github.io/dice-game-task/dice%20game%20task/index2.html" class="btn btn-primary">View Details</a>
+              <!-- <a href="https://jayasurya510.github.io/dice-game-task/dice%20game%20task/index2.html" class="btn btn-primary">View Details</a> -->
             </div>
           </div>
         </div>
@@ -157,6 +209,27 @@
       </div>
     </div>
   </section>
+  <section>
+    
+    
+    <form id="feedbackForm">
+      <h3>Rate and Provide Feedback</h3>
+      <label for="rating">Rating:</label>
+      <select id="rating" name="rating">
+        <option value="5">5 Stars</option>
+        <option value="4">4 Stars</option>
+        <option value="3">3 Stars</option>
+        <option value="2">2 Stars</option>
+        <option value="1">1 Star</option>
+      </select>
+      <br>
+      <label for="feedback">Feedback:</label>
+      <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+  
 
   <section id="contact" class="py-5">
     <div class="container">
